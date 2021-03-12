@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <StackPane prefHeight="504.0" prefWidth="582.0">
+      <Label text="Student Number :">
+         <StackPane.margin>
+            <Insets bottom="100.0" left="230.0" right="230.0" />
+         </StackPane.margin>
+      </Label>
+      <Label contentDisplay="TOP" depthTest="ENABLE" maxHeight="-Infinity" maxWidth="-Infinity" text="First Name : ">
+         <StackPane.margin>
+            <Insets bottom="300.0" left="150.0" right="160.0" />
+         </StackPane.margin>
+      </Label>
+      <Label text="Last Name:">
+         <StackPane.margin>
+            <Insets bottom="200.0" left="150.0" right="160.0" />
+         </StackPane.margin>
+      </Label>
+      <TextArea fx:id="textArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="164.0" prefWidth="390.0" StackPane.alignment="BOTTOM_RIGHT">
+         <StackPane.margin>
+            <Insets bottom="100.0" left="220.0" right="50.0" />
+         </StackPane.margin>
+      </TextArea>
+      <Label fx:id="FirstName" text=".." StackPane.alignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="300.0" left="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label fx:id="LastName" text="..">
+         <StackPane.margin>
+            <Insets bottom="200.0" left="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label fx:id="getStuID" text="..">
+         <StackPane.margin>
+            <Insets bottom="100.0" left="220.0" />
+         </StackPane.margin>
+      </Label>
+      <Label prefHeight="17.0" prefWidth="119.0" text="Favourite Activities :">
+         <StackPane.margin>
+            <Insets right="400.0" top="100.0" />
+         </StackPane.margin>
+      </Label>
+   </StackPane>
+   <ImageView fx:id="imageView" fitHeight="141.0" fitWidth="146.0" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+      <GridPane.margin>
+         <Insets left="20.0" top="80.0" />
+      </GridPane.margin>
+      <image>
+         <Image url="@../../image/IMG_0369.png" />
+      </image>
+   </ImageView>
+</GridPane>
